@@ -1,0 +1,14 @@
+    1  git --version
+    2  l
+    3  cd projects/
+    4  l
+    5  ls -lag
+    6  git config --get remote.origin.url
+    7  ls
+    8  ls -lag
+    9  git remote remove origin
+   10  git config --get remote.origin.url
+   11  git remote add origin https://github.com/khaledjamal/fastapi.git
+   12  git remote set-url origin https://khaledjamal@github.com/khaledjamal/fastapi.git
+   13  git push -u origin main
+   14  history > commands.log
